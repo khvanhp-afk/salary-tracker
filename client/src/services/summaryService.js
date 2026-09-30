@@ -82,4 +82,4 @@ export const getFilteredTransactions = async (filters = {}) => {
 
   // Сортировка по дате (новые первые)
   return transactions.sort((a, b) => new Date(b.date) - new Date(a.date));
-};
+}
